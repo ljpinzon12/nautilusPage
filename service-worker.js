@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nautilusPage/precache-manifest.101f176a185009d6fea627afc2b25059.js"
+  "/nautilusPage/precache-manifest.a35d2cf274ab68e905ff37755fc9a98c.js"
 );
 
 workbox.clientsClaim();

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,500|Open+Sans");
+.stack {
+  height: 100vh;
+  overflow: auto; }
+  .stack::-webkit-scrollbar {
+    display: none !important; }
+  .stack:not(:last-child) {
+    border-right: solid rgba(0, 0, 0, 0.3) 1px; }
+
+/*# sourceMappingURL=Stack.css.map */

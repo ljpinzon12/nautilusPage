@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACL,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;EACjB,QAAQ,EAAE,MAAM;EAChB,OAAO,EAAE,IAAI",
+"sources": ["Board.scss"],
+"names": [],
+"file": "Board.css"
+}

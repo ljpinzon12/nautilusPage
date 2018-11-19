@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEE,aAAU;EACR,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,OAAO;AAEjB,sBAAmB;EACjB,YAAY,EAAE,IAAI;AAEpB,gBAAa;EACX,YAAY,EAAE,IAAI",
+"sources": ["Chip.scss"],
+"names": [],
+"file": "Chip.css"
+}

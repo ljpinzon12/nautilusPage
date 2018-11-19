@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,500|Open+Sans");
+.media--mp4 {
+  position: relative;
+  margin-top: 24px;
+  padding-top: 50%; }
+  .media--mp4__video {
+    border-radius: 20px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+.media--image {
+  height: 33vh; }
+  .media--image__img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  .media--image:not(:last-child) {
+    margin-left: 25px; }
+  .media--image:not(:first-child) {
+    margin-right: 25px; }
+  .media--image__container {
+    height: 33vh;
+    position: relative; }
+  .media--image__options {
+    display: flex; }
+
+.mdi-information {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6); }
+
+.mdi-download {
+  position: absolute;
+  right: 50px;
+  bottom: -10px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.6); }
+
+/*# sourceMappingURL=Media.css.map */

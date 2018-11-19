@@ -1,0 +1,14 @@
+@import '../../utils/variables.scss';
+
+.stack {
+  height: 100vh;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    display: none!important;
+  }
+
+  &:not(:last-child) {
+    border-right: solid $line-color 1px;
+  }
+}

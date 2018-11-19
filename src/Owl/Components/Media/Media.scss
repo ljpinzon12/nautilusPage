@@ -1,0 +1,63 @@
+@import '../../utils/variables.scss';
+
+.media--mp4 {
+  position: relative;
+  margin-top: 24px;
+  padding-top: 50%;
+
+  &__video {
+    border-radius: 20px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+}
+
+.media--image {
+  height: 33vh;
+  &__img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  &:not(:last-child) {
+    margin-left: 25px;
+  }
+  &:not(:first-child) {
+    margin-right: 25px;
+  }
+  &__container {
+    height: 33vh;
+    position: relative;
+  }
+  &__options {
+    display: flex;
+  }
+}
+
+.mdi-information {
+  position: absolute;
+  right: 10px;
+  bottom: -10px;
+  font-size: 25px;
+  color: $text-color
+}
+
+.mdi-download {
+  position: absolute;
+  right: 50px;
+  bottom: -10px;
+  font-size: 25px;
+  color: $text-color
+}
+

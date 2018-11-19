@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,+EAAuE;ACE/E,MAAO;EACL,MAAM,EAAE,KAAK;EACb,QAAQ,EAAE,IAAI;EAEd,yBAAqB;IACnB,OAAO,EAAE,eAAc;EAGzB,uBAAmB;IACjB,YAAY,EAAE,4BAAqB",
+"sources": ["../../Utils/variables.scss","Stack.scss"],
+"names": [],
+"file": "Stack.css"
+}

@@ -1,0 +1,79 @@
+@import '../../utils/variables.scss';
+
+.box {
+  padding: 40px;
+  max-height: 100%;
+
+  &--vertical {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    .box--container {
+      transform: rotate(-90deg);
+      position: absolute;
+      bottom: 200px;
+    }
+
+    .box__title {
+      margin-left: 8px;
+    }
+  }
+
+  &__main-title {
+    font-size: 96px;
+    font-family: $main-title-font-family;
+    color: $main-title-color;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-family: $title-font-family;
+    color: $title-color;
+    font-weight: 500;
+  }
+
+  &__text {
+    font-size: 18px;
+    color: $text-color;
+    font-family: $text-font-family;
+    text-align: justify;
+    line-height: 1.8;
+  }
+
+  &:not(:last-child) {
+    border-bottom: solid $line-color 1px;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__chip-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+  &__options-container {
+    position: absolute!important;
+    left: 25px;
+  }
+}
+
+.demo-button {
+  max-height: 80%;
+  margin-left: 25px;
+}
+.code-button {
+  max-height: 80%;
+  margin: 0 16px 0 16px!important;
+}
+

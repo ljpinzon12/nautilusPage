@@ -2,6 +2,7 @@
   "name": "tesis",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ljpinzon12.github.io/nautilusPage",
   "dependencies": {
     "@material-ui/core": "^3.4.0",
     "@material-ui/icons": "^3.0.1",
@@ -12,13 +13,16 @@
     "react-scripts": "2.1.1"
   },
   "devDependencies": {
-    "eslint": "5.6.0"
+    "eslint": "5.6.0",
+    "gh-pages": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

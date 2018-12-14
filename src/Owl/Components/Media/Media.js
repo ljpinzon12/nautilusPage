@@ -14,7 +14,7 @@ class Media extends Component {
   renderMedia() {
     if (this.props.src.includes(".mp4")) {
       return (
-        <video className="media--mp4__video" style={{...this.props.styles}} ref={this.videoRef} autoplay muted>
+        <video className="media--mp4__video"  loop style={{...this.props.styles}} ref={this.videoRef} autoplay muted>
           <source src={this.props.src} type="video/mp4"/>
         </video>
       )

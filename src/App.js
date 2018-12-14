@@ -69,33 +69,35 @@ class App extends Component {
               <Media src="./tesis.mp4"/>
               <div className="box__container">
                 <Media src="./paper.png" info="PAPER" download="DOWNLOAD"
-                       link="https://drive.google.com/uc?id=1p4iycYgfVfD7aKE0SqIiw8mPfaAt8P_t&export=download&authuser=0"/>
+                       link="https://preview.overleaf.com/public/mdttkynmynhx/pdfs/903ac31d6cb79adcc2df86666ee14fa5f582ffd6/nautilus-visualization-tool.pdf"/>
                 <Media src="./poster.png" info="POSTER" download="DOWNLOAD"
                        link="https://drive.google.com/uc?id=1p4iycYgfVfD7aKE0SqIiw8mPfaAt8P_t&export=download&authuser=0"/>
               </div>
-              <div className="box__chip-container">
-                <div className="box__options-container">
-                  <Button variant="outlined" href="http://ljpinzon12.github.io/nautilus" className="demo-button">
-                    DEMO
-                  </Button>
-                  <Button variant="outlined" href="https://github.com/ljpinzon12/nautilus" className="code-button">
-                    CODE
-                  </Button>
+              <div className="box__info">
+                <div className="box__chip-container">
+                  <div className="box__options-container">
+                    <Button variant="outlined" href="http://ljpinzon12.github.io/nautilus" className="demo-button">
+                      DEMO
+                    </Button>
+                    <Button variant="outlined" href="https://github.com/ljpinzon12/nautilus" className="code-button">
+                      CODE
+                    </Button>
+                  </div>
+                  <Chip>
+                    <a href="https://github.com/ljpinzon12">
+                      <Tooltip title="Lady Pinzón">
+                        <img src="./LadyPinzon.jpg" className="chip__circle" alt="chip circle"/>
+                      </Tooltip>
+                    </a>
+                  </Chip>
+                  <Chip>
+                    <a href="https://github.com/john-guerra">
+                      <Tooltip title="John Guerra">
+                        <img src="./JohnGuerra.jpg" className="chip__circle" alt="chip circle"/>
+                      </Tooltip>
+                    </a>
+                  </Chip>
                 </div>
-                <Chip>
-                  <a href="https://github.com/ljpinzon12">
-                    <Tooltip title="Lady Pinzón">
-                      <img src="./LadyPinzon.jpg" className="chip__circle" alt="chip circle"/>
-                    </Tooltip>
-                  </a>
-                </Chip>
-                <Chip>
-                  <a href="https://github.com/john-guerra">
-                    <Tooltip title="John Guerra">
-                      <img src="./JohnGuerra.jpg" className="chip__circle" alt="chip circle"/>
-                    </Tooltip>
-                  </a>
-                </Chip>
               </div>
             </Box>
           </Stack>
